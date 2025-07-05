@@ -2,109 +2,58 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content=" width=device-width, initial-scale=1.0"/>
   <title>Legacy Vault</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
 </head>
 <body>
   <header>
-    <div><strong>LEGACY VAULT</strong></div>
+    <div class="logo">LEGACY VAULT</div>
     <nav>
-      <a href="#about">About</a>
+      <a href="#home">Home</a>
       <a href="#categories">Categories</a>
-      <a href="#faq">Help & Support</a>
-      <a href="#cart">Cart</a>
+      <a href="#arrivals">New Arrivals</a>
+      <a href="#support">Help</a>
       <a href="#login">Login</a>
     </nav>
   </header>
 
-  <section class="hero">
-    <h1>WHERE ELEGANCE MEETS LEGACY</h1>
-    <p>Luxury Essentials Crafted for the Ambitious</p>
-    <button class="btn">EXPLORE COLLECTION</button>
+  <section id="home" class="hero">
+    <h1>Where Elegance Meets Legacy</h1>
+    <p>Crafted for the Ambitious</p>
+    <a href="#arrivals" class="btn">Explore Now</a>
   </section>
 
-  <section id="categories" class="categories">
-    <h2>SHOP BY CATEGORY</h2>
+  <section id="categories" class="grid-section">
+    <h2>Categories</h2>
     <div class="grid">
-      <div class="card">
-        <img src="https://via.placeholder.com/200x250" alt="Men">
-        <h3>MEN</h3>
-        <button>SHOP NOW</button>
-      </div>
-      <div class="card">
-        <img src="https://via.placeholder.com/200x250" alt="Women">
-        <h3>WOMEN</h3>
-        <button>SHOP NOW</button>
-      </div>
-      <div class="card">
-        <img src="https://via.placeholder.com/200x250" alt="Limited Edition">
-        <h3>LIMITED EDITION</h3>
-        <button>SHOP NOW</button>
-      </div>
+      <div class="card"><h3>Men</h3></div>
+      <div class="card"><h3>Women</h3></div>
+      <div class="card"><h3>Limited</h3></div>
     </div>
   </section>
 
-  <section class="new-arrivals">
-    <h2>NEW ARRIVALS</h2>
+  <section id="arrivals" class="grid-section">
+    <h2>New Arrivals</h2>
     <div class="grid">
-      <div class="card">
-        <img src="https://via.placeholder.com/200x250" alt="Balec">
-        <h3>Balec</h3>
-        <p>$350</p>
-        <button>ADD TO CART</button>
-      </div>
-      <div class="card">
-        <img src="https://via.placeholder.com/200x250" alt="Menten">
-        <h3>Menten</h3>
-        <p>$180</p>
-        <button>ADD TO CART</button>
-      </div>
-      <div class="card">
-        <img src="https://via.placeholder.com/200x250" alt="Beige">
-        <h3>Beige</h3>
-        <p>$280</p>
-        <button>VIEW DETAILS</button>
-      </div>
-      <div class="card">
-        <img src="https://via.placeholder.com/200x250" alt="Green Wrap Coat">
-        <h3>Green Wrap Coat</h3>
-        <p>$320</p>
-        <button>ADD TO CART</button>
-      </div>
+      <div class="card"><h3>Product 1</h3></div>
+      <div class="card"><h3>Product 2</h3></div>
+      <div class="card"><h3>Product 3</h3></div>
     </div>
   </section>
 
-  <section id="faq" class="utility-section">
+  <section id="support" class="info">
     <h2>Help & Support</h2>
     <ul>
+      <li>Secure Payments</li>
       <li>Order Tracking</li>
-      <li>Payment Methods</li>
-      <li>Shipping Info</li>
-      <li>Returns & Exchanges</li>
-    </ul>
-  </section>
-
-  <section id="login" class="utility-section">
-    <h2>Login / Register</h2>
-    <ul>
-      <li>Secure Customer Login</li>
-      <li>Saved Wishlists</li>
-      <li>Checkout History</li>
-    </ul>
-  </section>
-
-  <section id="cart" class="utility-section">
-    <h2>Cart & Payments</h2>
-    <ul>
-      <li>Supports Bkash, Nagad, Card</li>
-      <li>Secure Checkout</li>
-      <li>Live Order Data</li>
+      <li>Returns & Refunds</li>
     </ul>
   </section>
 
   <footer>
-    &copy; 2025 Legacy Vault. All rights reserved.
+    <p>&copy; 2025 Legacy Vault</p>
   </footer>
 </body>
 </html>
