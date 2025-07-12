@@ -1,0 +1,38 @@
+roseRome-project/
+│
+├── frontend/
+│   ├── index.html
+│   ├── styles.css
+│   ├── scripts.js
+│   └── images/
+│       ├── hero-bg.jpg
+│       ├── florist.jpg
+│       ├── collection-1.jpg
+│       ├── collection-2.jpg
+│       ├── collection-3.jpg
+│       └── collection-4.jpg
+│
+└── backend/
+    ├── config/
+    │   └── db.js
+    ├── controllers/
+    │   ├── authController.js
+    │   ├── productController.js
+    │   ├── orderController.js
+    │   └── contactController.js
+    ├── models/
+    │   ├── User.js
+    │   ├── Product.js
+    │   ├── Order.js
+    │   └── Contact.js
+    ├── routes/
+    │   ├── authRoutes.js
+    │   ├── productRoutes.js
+    │   ├── orderRoutes.js
+    │   └── contactRoutes.js
+    ├── middleware/
+    │   └── auth.js
+    ├── .env
+    ├── .gitignore
+    ├── package.json
+    └── server.js

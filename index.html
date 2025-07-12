@@ -1,59 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content=" width=device-width, initial-scale=1.0"/>
-  <title>Legacy Vault</title>
-  <link rel="stylesheet" href="styles.css" />
-  <script defer src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RoseRome - Luxury Floral Boutique</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <div class="logo">LEGACY VAULT</div>
-    <nav>
-      <a href="#home">Home</a>
-      <a href="#categories">Categories</a>
-      <a href="#arrivals">New Arrivals</a>
-      <a href="#support">Help</a>
-      <a href="#login">Login</a>
-    </nav>
-  </header>
+    <!-- Header -->
+    <header id="header">
+        <div class="container header-container">
+            <a href="#" class="logo"><i class="fas fa-rose"></i> RoseRome</a>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#collections">Collections</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
 
-  <section id="home" class="hero">
-    <h1>Where Elegance Meets Legacy</h1>
-    <p>Crafted for the Ambitious</p>
-    <a href="#arrivals" class="btn">Explore Now</a>
-  </section>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Elegance Blooms Here</h1>
+            <p>Discover our exclusive collection of handcrafted floral arrangements that transform moments into cherished memories.</p>
+            <a href="#collections" class="btn">Explore Collections</a>
+        </div>
+    </section>
 
-  <section id="categories" class="grid-section">
-    <h2>Categories</h2>
-    <div class="grid">
-      <div class="card"><h3>Men</h3></div>
-      <div class="card"><h3>Women</h3></div>
-      <div class="card"><h3>Limited</h3></div>
-    </div>
-  </section>
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Story</h2>
+                <p>Passion for petals, dedication to design</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Where Floral Artistry Meets Timeless Elegance</h3>
+                    <p>Founded in 2010, RoseRome began as a small boutique in the heart of the city with a vision to revolutionize floral design.</p>
+                    <a href="#contact" class="btn">Visit Our Boutique</a>
+                </div>
+                <div class="about-image">
+                    <img src="images/florist.jpg" alt="Florist creating arrangement">
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <section id="arrivals" class="grid-section">
-    <h2>New Arrivals</h2>
-    <div class="grid">
-      <div class="card"><h3>Product 1</h3></div>
-      <div class="card"><h3>Product 2</h3></div>
-      <div class="card"><h3>Product 3</h3></div>
-    </div>
-  </section>
+    <!-- Other sections would continue here... -->
 
-  <section id="support" class="info">
-    <h2>Help & Support</h2>
-    <ul>
-      <li>Secure Payments</li>
-      <li>Order Tracking</li>
-      <li>Returns & Refunds</li>
-    </ul>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 Legacy Vault</p>
-  </footer>
+    <script src="scripts.js"></script>
 </body>
 </html>
